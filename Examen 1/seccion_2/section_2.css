@@ -1,0 +1,28 @@
+.section_2{
+    max-width: 37.5rem;
+    height: 20rem;
+    margin: auto;
+    margin-top: 5rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem 8rem 8rem;
+    gap: 10px;
+}
+
+
+.section_2 h2{
+    grid-row: 1/2;
+    align-self: center;
+}
+
+.section_2 div{
+    border: 1px solid black;
+    border-radius: 20px;
+
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
